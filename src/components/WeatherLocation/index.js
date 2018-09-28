@@ -9,7 +9,7 @@ import {CLOUD,
       WINDY} from './../../constants/weathers';
 
 const data = {
-      temperature: 5,
+      temperature: 15,
       weatherState: SUN,
       humidity: 10,
       wind: '10 m/s',
@@ -19,6 +19,5 @@ const WeatherLocation = () => (
       <WeatherData data={data}></WeatherData>     
 </div>
 );
-
 
 export default WeatherLocation;
